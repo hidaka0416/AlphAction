@@ -93,9 +93,14 @@ yacs                      0.1.8
 zlib                      1.2.11            
 zstd                      1.4.5             
 ```
-<br>   
+<br>  
   
 ## Data Preparation
-1. use the command `mkdir ./data` to make directory for data save.
+1. use the command `mkdir data` to make directory for data save.
 1. Download the tar.gz file from [here](https://drive.google.com/file/d/1k0cHMr5DF4cyd3x_0GoMpEXO9M03AdD6/view "here").
-1. unzip the file and place into `AlphAction/data/`
+1. unzip the file and place into `AlphAction/data/`  
+  
+<br>  
+  
+## Model Preparation
+1. 
