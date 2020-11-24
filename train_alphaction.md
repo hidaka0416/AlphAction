@@ -1,8 +1,6 @@
 # How to train AlphAction  
-<br />
 ## installation  
 The step-by-step installation script is shown below.  
-<br />
 ```
 conda create -n alphaction python=3.7
 conda activate alphaction
@@ -18,10 +16,7 @@ git clone https://github.com/MVIG-SJTU/AlphAction.git
 cd AlphAction
 pip install -e .    # Other dependicies will be installed here
 ``` 
-<br />
-<br />
 The environment when the operation is confirmed is as follows.  
-<br />
 ```
 _libgcc_mutex             0.1          
 _openmp_mutex             4.5                  
@@ -96,9 +91,6 @@ yacs                      0.1.8
 zlib                      1.2.11            
 zstd                      1.4.5             
 ```
-<br />
-<br />
 # Data Preparation
-<br />
 1. Download the tar.gz file from [here](https://drive.google.com/file/d/1k0cHMr5DF4cyd3x_0GoMpEXO9M03AdD6/view "here").
 1. 
