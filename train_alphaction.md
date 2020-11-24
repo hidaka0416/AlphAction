@@ -18,7 +18,8 @@ git clone https://github.com/MVIG-SJTU/AlphAction.git
 cd AlphAction
 pip install -e .    # Other dependicies will be installed here
 ```
- 
+  
+  
 The environment when the operation is confirmed is as follows.  
   
 ```
@@ -95,4 +96,9 @@ yacs                      0.1.8
 zlib                      1.2.11            
 zstd                      1.4.5             
 ```
-    
+  
+  
+# Data Preparation
+  
+1. Download the tar.gz file from [here](https://drive.google.com/file/d/1k0cHMr5DF4cyd3x_0GoMpEXO9M03AdD6/view "here").
+1. 
