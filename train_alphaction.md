@@ -101,9 +101,8 @@ zstd                      1.4.5
 1. unzip the file and place into `AlphAction/data/`  
   
 <br>  
-  
 ## Model Preparation
-1. Download pre-trained models from [MODEL_ZOO.md](https://github.com/hidaka0416/AlphAction/blob/master/MODEL_ZOO.md#pre-trained-models "MODEL_ZOO.md").Then place pre-trained models in data/models directory with following structure:  
+1. Download pre-trained models from [MODEL_ZOO.md](https://github.com/hidaka0416/AlphAction/blob/master/MODEL_ZOO.md#pre-trained-models "MODEL_ZOO.md").Then place pre-trained models in `data/models` directory with following structure:  
 ```
 models/
 |_ pretrained_models/
