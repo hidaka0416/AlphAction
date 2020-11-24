@@ -103,4 +103,10 @@ zstd                      1.4.5
 <br>  
   
 ## Model Preparation
-1. 
+1. Download pre-trained models from [MODEL_ZOO.md](https://github.com/hidaka0416/AlphAction/blob/master/MODEL_ZOO.md#pre-trained-models "MODEL_ZOO.md").Then place pre-trained models in data/models directory with following structure:  
+```
+models/
+|_ pretrained_models/
+|  |_ SlowFast-ResNet50-4x16.pth
+|  |_ SlowFast-ResNet101-8x8.pth
+```
