@@ -113,10 +113,7 @@ ln -s /some/path/AVA data/AVA
 models/
 |_ pretrained_models/
 |  |_ SlowFast-ResNet50-4x16.pth
-```  
-  
-<br> 
-  
+```    
 ## train AlphAction  
 1. run the following command in the `AlphAction` directory  
 ```
