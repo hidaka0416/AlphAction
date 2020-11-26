@@ -95,7 +95,7 @@ zstd                      1.4.5
 ```
 <br>  
   
-## Data Preparation
+## Data Preparation  
 1. Download the tar.gz file from [here](https://drive.google.com/file/d/1k0cHMr5DF4cyd3x_0GoMpEXO9M03AdD6/view "here").
 1. run following commands to unzip the file and create a symbolic link to the extracted files.  
 ```
@@ -106,15 +106,17 @@ ln -s /some/path/AVA data/AVA
 ```  
 <br>  
   
-## Model Preparation
+## Model Preparation  
 1. Download pre-trained models from [MODEL_ZOO.md](https://github.com/hidaka0416/AlphAction/blob/master/MODEL_ZOO.md#pre-trained-models "MODEL_ZOO.md").Then place pre-trained models in `data/models` directory with following structure:  
   
 ```
 models/
 |_ pretrained_models/
 |  |_ SlowFast-ResNet50-4x16.pth
-```    
-## train AlphAction  
+```  
+<br>  
+  
+## Train AlphAction  
 1. run the following command in the `AlphAction` directory  
 ```
  python train_net.py --config-file ./config_files/resnet50_4x16f_baseline.yaml --transfer --no-head --use-tfboard SOLVER.BASE_LR 0.000125 SOLVER.STEPS '(560000, 720000)' SOLVER.MAX_ITER 880000 SOLVER.VIDEOS_PER_BATCH 2 TEST.VIDEOS_PER_BATCH 2
