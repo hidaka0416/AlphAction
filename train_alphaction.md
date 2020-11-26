@@ -117,7 +117,7 @@ models/
 <br>  
   
 ## Train AlphAction  
-1. run the following command in the `AlphAction` directory  
+1. To train on a single GPU, run the following command in the `AlphAction` directory.   
 ```
  python train_net.py --config-file ./config_files/resnet50_4x16f_baseline.yaml --transfer --no-head --use-tfboard SOLVER.BASE_LR 0.000125 SOLVER.STEPS '(560000, 720000)' SOLVER.MAX_ITER 880000 SOLVER.VIDEOS_PER_BATCH 2 TEST.VIDEOS_PER_BATCH 2
 ```
