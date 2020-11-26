@@ -108,9 +108,18 @@ ln -s /some/path/AVA data/AVA
   
 ## Model Preparation
 1. Download pre-trained models from [MODEL_ZOO.md](https://github.com/hidaka0416/AlphAction/blob/master/MODEL_ZOO.md#pre-trained-models "MODEL_ZOO.md").Then place pre-trained models in `data/models` directory with following structure:  
+  
 ```
 models/
 |_ pretrained_models/
 |  |_ SlowFast-ResNet50-4x16.pth
-|  |_ SlowFast-ResNet101-8x8.pth
+```  
+  
+<br> 
+  
+## train AlphAction  
+1. run the following command in the `AlphAction` directory  
 ```
+ python train_net.py --config-file ./config_files/resnet50_4x16f_baseline.yaml --transfer --no-head --use-tfboard SOLVER.BASE_LR 0.000125 SOLVER.STEPS '(560000, 720000)' SOLVER.MAX_ITER 880000 SOLVER.VIDEOS_PER_BATCH 2 TEST.VIDEOS_PER_BATCH 2
+```
+
